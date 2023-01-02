@@ -1,0 +1,32 @@
+.scheduleList {
+  background-color: white;
+  padding: 28px 20px;
+  margin-bottom: 60px;
+  border-radius: 12px;
+  width: 100%;
+}
+.scheduleListContainer {
+  padding-left: 40px;
+  padding-right: 10px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  border-radius: 12px;
+  width: 90%;
+}
+.scheduleList h4 {
+  margin-bottom: 10px;
+}
+.schedule-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.schedule-list-button {
+  padding: 3px 10px !important;
+  font-size: 11px !important;
+  background-color: #004a77 !important;
+}

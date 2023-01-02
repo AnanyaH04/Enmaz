@@ -1,0 +1,85 @@
+#drawer-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-height: 100vh;
+  background-color: #fff;
+  width: 17% !important;
+  position: fixed;
+}
+
+.drawer-top-section {
+  height: 11vh;
+  background-color: #001d33;
+}
+
+.drawer-main-section {
+  padding: 20px 18px;
+}
+
+.dashboard-icons {
+  height: 43px;
+  width: 43px;
+  border-radius: 10px;
+  background: #dee3eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.dashboard-icons img {
+  width: 33px;
+  height: 33px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}
+.nav-item {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.drawer-main-section ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+}
+
+.drawer-main-section ul li {
+  padding: 13px 0;
+}
+.drawer-main-section ul li:hover {
+  left: 10%;
+  right: 0%;
+
+  background-color: #cfe5ff;
+}
+@media (max-width: 926px) {
+  #drawer-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: 100vh;
+    background-color: #fff;
+    position: fixed !important;
+    width: 23% !important;
+  }
+  .drawer-main-section ul li {
+    padding: 13px 0;
+  }
+  .dashboard-icons {
+    height: 35px;
+    width: 35px;
+    margin-right: 20px;
+  }
+
+  .dashboard-icons img {
+    width: 25px;
+    height: 25px;
+  }
+}
