@@ -1,0 +1,24 @@
+.NewscheduleBody{
+    background-color: linear-gradient(0deg, rgba(193, 193, 193, 0.11), rgba(193, 193, 193, 0.11)), #FCFCFF;;
+}
+
+.logo{
+    height: 22px;
+    width: 17.2px;
+    left: 4px;
+    top: 1px;
+    border-radius: 0;
+    align-self: center;
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+
+#alert-dialog-title{
+    align-self: center;
+    padding-top: 0;
+}
+
+#alert-dialog-description{
+    /* margin-left: 2%; */
+    margin-right: 10%;
+}

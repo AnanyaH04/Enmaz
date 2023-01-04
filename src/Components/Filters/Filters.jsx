@@ -2,9 +2,6 @@ import {
   Button,
   FormControl,
   Grid,
-  // InputLabel,
-  // MenuItem,
-  // Select,
 } from "@mui/material";
 import React, { Fragment } from "react";
 
@@ -13,9 +10,10 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import FactoryIcon from "@mui/icons-material/Factory";
 import Dropdown from "../Dropdown/Dropdown";
 import MemoryIcon from "@mui/icons-material/Memory";
+import NewSchedule from '../NewSchedule/NewSchedule';
 import "./Filters.css";
 
-const Filters = () => {
+const Filters = (props) => {
   const [customer, setCustomer] = React.useState("Select Customer");
   const [subarea, setSubArea] = React.useState("Select Sub Area");
   const [location, setLocation] = React.useState("Select Location");
@@ -51,7 +49,7 @@ const Filters = () => {
   return (
     <Fragment>
       <div className="schedule-filters">
-        <h4 className="filter-text">Filters</h4>
+      <h4 className="filter-text">Filters</h4>
         <Grid container spacing={3}>
           <Grid item md={4} xs={12}>
             <FormControl fullWidth>
@@ -185,18 +183,7 @@ const Filters = () => {
             </FormControl>
           </Grid>
           <Grid item md={4} xs={12} className="centerThis">
-            <Button
-              size="small"
-              variant="contained"
-              style={{
-                background: "#004a77",
-                fontSize: "14px",
-                padding: "10px 24px 10px 24px",
-                borderRadius: "100px",
-              }}
-            >
-              Create New Schedule
-            </Button>
+          <NewSchedule/>
           </Grid>
         </Grid>
       </div>
