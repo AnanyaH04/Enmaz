@@ -5,6 +5,7 @@
 .logo{
     height: 22px;
     width: 17.2px;
+    justify-content: center;
     left: 4px;
     top: 1px;
     border-radius: 0;
